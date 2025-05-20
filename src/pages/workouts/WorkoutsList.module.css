@@ -1,0 +1,45 @@
+.workoutsListContainer {
+  padding: var(--spacing-md);
+}
+
+.workoutsListPaper {
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+}
+
+.workoutsListToolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-md);
+  border-bottom: 1px solid var(--grey-200);
+}
+
+.searchField {
+  width: 300px;
+}
+
+.filterChip {
+  margin-left: var(--spacing-sm);
+}
+
+.userCell {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.userAvatar {
+  width: 30px;
+  height: 30px;
+}
+
+.durationCell {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+}
+
+.menuIcon {
+  margin-right: var(--spacing-sm);
+}

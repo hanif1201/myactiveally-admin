@@ -1,0 +1,23 @@
+.reportsContainer {
+  padding: var(--spacing-md);
+}
+
+.filtersContainer {
+  padding: var(--spacing-md);
+  margin-bottom: var(--spacing-md);
+  border-radius: var(--border-radius-lg);
+}
+
+.loadingContainer,
+.errorContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-xl);
+  min-height: 300px;
+}
+
+.reportsGrid {
+  margin-bottom: var(--spacing-md);
+}

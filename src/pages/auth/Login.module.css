@@ -1,0 +1,64 @@
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--grey-100);
+}
+
+.loginBox {
+  width: 100%;
+  max-width: 420px;
+  padding: var(--spacing-md);
+}
+
+.loginPaper {
+  padding: var(--spacing-lg);
+  border-radius: var(--border-radius-lg);
+}
+
+.logoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+.logoIcon {
+  font-size: 48px;
+  color: var(--primary-main);
+  margin-bottom: var(--spacing-sm);
+}
+
+.logoText {
+  font-weight: 700;
+  color: var(--primary-main);
+}
+
+.form {
+  margin-top: var(--spacing-md);
+}
+
+.alert {
+  margin-bottom: var(--spacing-md);
+}
+
+.submitButton {
+  margin-top: var(--spacing-lg);
+  margin-bottom: var(--spacing-md);
+  height: 48px;
+}
+
+.forgotPasswordLink {
+  color: var(--primary-main);
+  text-decoration: none;
+}
+
+.forgotPasswordLink:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  margin-top: var(--spacing-lg);
+}

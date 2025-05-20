@@ -1,0 +1,109 @@
+.verificationContainer {
+  padding: var(--spacing-md);
+}
+
+.pendingListPaper {
+  height: 100%;
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+}
+
+.pendingListTitle {
+  padding: var(--spacing-md);
+  display: flex;
+  align-items: center;
+}
+
+.pendingCountChip {
+  margin-left: var(--spacing-sm);
+}
+
+.loadingContainer,
+.emptyListContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-xl);
+  min-height: 200px;
+}
+
+.pendingList {
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.pendingListItem {
+  padding: var(--spacing-sm) var(--spacing-md);
+}
+
+.listItemAvatar {
+  margin-right: var(--spacing-sm);
+}
+
+.noSelectionPaper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  padding: var(--spacing-xl);
+  border-radius: var(--border-radius-lg);
+}
+
+.instructorDetailsPaper {
+  border-radius: var(--border-radius-lg);
+  padding: var(--spacing-lg);
+}
+
+.instructorHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--spacing-md);
+}
+
+.instructorInfo {
+  display: flex;
+  align-items: center;
+}
+
+.instructorAvatar {
+  width: 60px;
+  height: 60px;
+  margin-right: var(--spacing-md);
+}
+
+.viewDetailsButton {
+  margin-left: var(--spacing-md);
+}
+
+.divider {
+  margin: var(--spacing-md) 0;
+}
+
+.sectionTitle {
+  margin-bottom: var(--spacing-sm);
+}
+
+.bioText {
+  white-space: pre-line;
+  margin-bottom: var(--spacing-md);
+}
+
+.certificationCard {
+  height: 100%;
+}
+
+.verificationActions {
+  margin-top: var(--spacing-lg);
+}
+
+.verificationNotes {
+  margin-bottom: var(--spacing-md);
+}
+
+.actionsButtonGroup {
+  display: flex;
+  justify-content: space-between;
+}

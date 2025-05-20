@@ -1,0 +1,78 @@
+.matchDetailsContainer {
+  padding: var(--spacing-md);
+}
+
+.loadingContainer,
+.errorContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-xl);
+  min-height: 300px;
+}
+
+.backButton {
+  margin-right: var(--spacing-sm);
+}
+
+.statusCard {
+  margin-bottom: var(--spacing-md);
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+}
+
+.statusCardContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--spacing-md);
+}
+
+.statusLabel {
+  margin-right: var(--spacing-sm);
+  color: var(--text-secondary);
+}
+
+.matchInfo {
+  display: flex;
+  gap: var(--spacing-lg);
+}
+
+.matchInfoItem {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+}
+
+.contentGrid {
+  margin-bottom: var(--spacing-md);
+}
+
+.userProfile {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--spacing-md);
+}
+
+.userAvatar {
+  width: 60px;
+  height: 60px;
+  margin-right: var(--spacing-md);
+}
+
+.userInfo {
+  flex: 1;
+}
+
+.divider {
+  margin: var(--spacing-md) 0;
+}
+
+.viewProfileButton {
+  margin-top: var(--spacing-md);
+}
+
+.menuIcon {
+  margin-right: var(--spacing-sm);
+}

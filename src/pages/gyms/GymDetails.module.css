@@ -1,0 +1,100 @@
+.gymDetailsContainer {
+  padding: var(--spacing-md);
+}
+
+.loadingContainer,
+.errorContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-xl);
+  min-height: 300px;
+}
+
+.backButton {
+  margin-right: var(--spacing-sm);
+}
+
+.profileHeader {
+  margin-bottom: var(--spacing-md);
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+}
+
+.profileHeaderContent {
+  display: flex;
+  padding: var(--spacing-lg);
+  align-items: center;
+}
+
+.profileInfo {
+  flex: 1;
+}
+
+.profileNameRow {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--spacing-xs);
+  flex-wrap: wrap;
+}
+
+.profileNameRow h4 {
+  margin-right: var(--spacing-sm);
+}
+
+.verificationChip {
+  margin-right: var(--spacing-sm);
+  margin-bottom: var(--spacing-xs);
+}
+
+.ratingContainer {
+  display: flex;
+  align-items: center;
+  margin-top: var(--spacing-xs);
+  margin-bottom: var(--spacing-sm);
+}
+
+.ratingContainer p {
+  margin-left: var(--spacing-xs);
+}
+
+.tabsContainer {
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+}
+
+.tabs {
+  background-color: var(--grey-50);
+}
+
+.tabContent {
+  padding: var(--spacing-lg);
+}
+
+.description {
+  white-space: pre-line;
+}
+
+.amenitiesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+}
+
+.amenityChip {
+  margin-bottom: var(--spacing-sm);
+}
+
+.websiteLink {
+  color: var(--primary-main);
+  text-decoration: none;
+}
+
+.websiteLink:hover {
+  text-decoration: underline;
+}
+
+.menuIcon {
+  margin-right: var(--spacing-sm);
+}

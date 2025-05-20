@@ -1,0 +1,108 @@
+.appBar {
+  z-index: var(--z-index-app-bar);
+  transition: margin 0.3s ease;
+}
+
+.menuButton {
+  margin-right: var(--spacing-md);
+}
+
+.logo {
+  display: none;
+  font-weight: 600;
+}
+
+.search {
+  position: relative;
+  border-radius: var(--border-radius-md);
+  background-color: rgba(255, 255, 255, 0.15);
+  margin-right: var(--spacing-md);
+  margin-left: 0;
+  width: auto;
+  transition: background-color 0.3s;
+}
+
+.search:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.searchIcon {
+  padding: 0 var(--spacing-md);
+  height: 100%;
+  position: absolute;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputRoot {
+  color: inherit;
+  width: 100%;
+}
+
+.inputInput {
+  padding: var(--spacing-sm) var(--spacing-sm) var(--spacing-sm) 0;
+  padding-left: calc(1em + var(--spacing-md) * 2);
+  width: 100%;
+}
+
+.iconSection {
+  display: flex;
+  align-items: center;
+}
+
+.userMenuButton {
+  margin-left: var(--spacing-sm);
+}
+
+.userAvatar {
+  width: 32px;
+  height: 32px;
+}
+
+.notificationsMenu {
+  width: 320px;
+}
+
+.menuTitle {
+  padding: var(--spacing-sm) var(--spacing-md);
+  font-weight: 600;
+}
+
+.notificationItem {
+  padding: var(--spacing-sm) var(--spacing-md);
+}
+
+.notificationContent {
+  width: 100%;
+}
+
+.viewAllItem {
+  padding: var(--spacing-sm) var(--spacing-md);
+  display: flex;
+  justify-content: center;
+}
+
+.userMenu {
+  min-width: 200px;
+}
+
+.menuItem {
+  padding: var(--spacing-sm) var(--spacing-md);
+}
+
+.menuIcon {
+  margin-right: var(--spacing-sm);
+}
+
+@media (min-width: 600px) {
+  .logo {
+    display: block;
+  }
+
+  .search {
+    margin-left: var(--spacing-md);
+    width: auto;
+  }
+}

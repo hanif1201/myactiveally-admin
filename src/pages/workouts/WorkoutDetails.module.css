@@ -1,0 +1,117 @@
+.workoutDetailsContainer {
+  padding: var(--spacing-md);
+}
+
+.loadingContainer,
+.errorContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-xl);
+  min-height: 300px;
+}
+
+.backButton {
+  margin-right: var(--spacing-sm);
+}
+
+.analyzeButton {
+  min-width: 140px;
+}
+
+.summaryCard {
+  margin-bottom: var(--spacing-md);
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+}
+
+.summaryCardContent {
+  padding: var(--spacing-lg);
+}
+
+.workoutTitleSection {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--spacing-md);
+  flex-wrap: wrap;
+}
+
+.workoutTitle {
+  margin-right: var(--spacing-md);
+  margin-bottom: var(--spacing-xs);
+}
+
+.workoutTypeChip {
+  margin-bottom: var(--spacing-xs);
+}
+
+.summaryStats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-lg);
+}
+
+.statItem {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.statIcon {
+  color: var(--text-secondary);
+}
+
+.contentGrid {
+  margin-bottom: var(--spacing-md);
+}
+
+.userProfile {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--spacing-md);
+}
+
+.userAvatar {
+  width: 60px;
+  height: 60px;
+  margin-right: var(--spacing-md);
+}
+
+.userInfo {
+  flex: 1;
+}
+
+.divider {
+  margin: var(--spacing-md) 0;
+}
+
+.viewProfileButton {
+  margin-top: var(--spacing-md);
+}
+
+.locationSection {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-md);
+}
+
+.workoutNotes {
+  white-space: pre-line;
+}
+
+.progressItem {
+  margin-bottom: var(--spacing-md);
+}
+
+.progressBarContainer {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  margin-top: var(--spacing-xs);
+}
+
+.progressBar {
+  flex-grow: 1;
+}

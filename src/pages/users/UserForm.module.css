@@ -1,0 +1,74 @@
+.userFormContainer {
+  padding: var(--spacing-md);
+}
+
+.loadingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-xl);
+  min-height: 300px;
+}
+
+.formPaper {
+  padding: var(--spacing-lg);
+  border-radius: var(--border-radius-lg);
+}
+
+.alert {
+  margin-bottom: var(--spacing-md);
+}
+
+.divider {
+  margin: var(--spacing-lg) 0;
+}
+
+.formActions {
+  display: flex;
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-xl);
+}
+
+.submitButton {
+  min-width: 150px;
+}
+
+.cancelButton {
+  min-width: 100px;
+}
+
+.uploadContainer {
+  margin-top: var(--spacing-md);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+}
+
+.uploadPreview {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: var(--border-radius-md);
+  background-color: var(--grey-100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.uploadPreviewImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--border-radius-md);
+}
+
+.uploadButton {
+  margin-top: var(--spacing-sm);
+}
+
+.errorText {
+  color: var(--error-main);
+  margin-top: var(--spacing-xs);
+  font-size: 0.75rem;
+}

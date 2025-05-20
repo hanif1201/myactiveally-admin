@@ -1,0 +1,67 @@
+.settingsContainer {
+  padding: var(--spacing-md);
+}
+
+.settingsPaper {
+  padding: var(--spacing-lg);
+  border-radius: var(--border-radius-lg);
+}
+
+.loadingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-xl);
+  min-height: 300px;
+}
+
+.divider {
+  margin: var(--spacing-lg) 0;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: var(--spacing-lg);
+}
+
+.apiKeysHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-md);
+}
+
+.newKeyForm {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-lg);
+  padding: var(--spacing-md);
+  border: 1px solid var(--grey-300);
+  border-radius: var(--border-radius-md);
+  background-color: var(--grey-50);
+}
+
+.newKeyFormButtons {
+  display: flex;
+  gap: var(--spacing-md);
+}
+
+.apiKeyCell {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.apiKeyActions {
+  display: flex;
+  gap: var(--spacing-xs);
+}
+
+.tableActions {
+  display: flex;
+  gap: var(--spacing-xs);
+  justify-content: flex-end;
+}

@@ -1,0 +1,88 @@
+.consultationDetailsContainer {
+  padding: var(--spacing-md);
+}
+
+.loadingContainer,
+.errorContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-xl);
+  min-height: 300px;
+}
+
+.statusCard {
+  margin-bottom: var(--spacing-md);
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+}
+
+.statusCardContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--spacing-md);
+}
+
+.statusLabel {
+  margin-right: var(--spacing-sm);
+  color: var(--text-secondary);
+}
+
+.statusChip {
+  font-weight: 500;
+}
+
+.statusActions {
+  display: flex;
+  gap: var(--spacing-md);
+}
+
+.statusButton {
+  min-width: 150px;
+}
+
+.contentGrid {
+  margin-bottom: var(--spacing-md);
+}
+
+.divider {
+  margin: var(--spacing-md) 0;
+}
+
+.notesSection {
+  margin-top: var(--spacing-md);
+}
+
+.notesField {
+  margin-bottom: var(--spacing-md);
+}
+
+.saveButton {
+  margin-top: var(--spacing-sm);
+}
+
+.profileCard {
+  margin-bottom: var(--spacing-md);
+}
+
+.marginTop {
+  margin-top: var(--spacing-md);
+}
+
+.profileInfo {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--spacing-md);
+}
+
+.profileAvatar {
+  width: 60px;
+  height: 60px;
+  margin-right: var(--spacing-md);
+}
+
+.viewProfileButton {
+  margin-top: var(--spacing-md);
+}
