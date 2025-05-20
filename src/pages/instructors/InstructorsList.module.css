@@ -1,0 +1,48 @@
+.instructorsListContainer {
+  padding: var(--spacing-md);
+}
+
+.instructorsListPaper {
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+}
+
+.instructorsListToolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-md);
+  border-bottom: 1px solid var(--grey-200);
+}
+
+.searchField {
+  width: 300px;
+}
+
+.filterChip {
+  margin-left: var(--spacing-sm);
+}
+
+.instructorCell {
+  display: flex;
+  align-items: center;
+}
+
+.instructorAvatar {
+  margin-right: var(--spacing-sm);
+}
+
+.chipContainer {
+  display: flex;
+  gap: var(--spacing-xs);
+}
+
+.ratingCell {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+}
+
+.menuIcon {
+  margin-right: var(--spacing-sm);
+}

@@ -1,0 +1,16 @@
+.footer {
+  padding: var(--spacing-md);
+  margin-top: auto;
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--spacing-xs);
+}
+
+.link {
+  margin: 0 var(--spacing-sm);
+  font-size: 0.8rem;
+}

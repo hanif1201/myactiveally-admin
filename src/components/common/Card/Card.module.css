@@ -1,0 +1,28 @@
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-2);
+  overflow: hidden;
+}
+
+.cardHeader {
+  padding: var(--spacing-md);
+}
+
+.cardContent {
+  padding: var(--spacing-md);
+  flex-grow: 1;
+}
+
+.cardFooter {
+  padding: var(--spacing-md);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

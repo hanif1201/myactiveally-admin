@@ -1,0 +1,58 @@
+.dashboardContainer {
+  padding: var(--spacing-md);
+}
+
+.loadingContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.statsGrid {
+  margin-bottom: var(--spacing-md);
+}
+
+.chartsGrid {
+  margin-bottom: var(--spacing-md);
+}
+
+.chartContainer {
+  height: 300px;
+  width: 100%;
+}
+
+.timeRangeSelect {
+  width: 150px;
+}
+
+.activityList {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.activityItem {
+  display: flex;
+  padding: var(--spacing-sm) 0;
+  border-bottom: 1px solid var(--grey-200);
+}
+
+.activityItem:last-child {
+  border-bottom: none;
+}
+
+.activityIcon {
+  margin-right: var(--spacing-md);
+  display: flex;
+  align-items: center;
+}
+
+.activityContent {
+  flex: 1;
+}
+
+.viewMoreContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--spacing-md);
+}

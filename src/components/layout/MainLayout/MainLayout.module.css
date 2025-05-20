@@ -1,0 +1,32 @@
+.root {
+  display: flex;
+  min-height: 100vh;
+}
+
+.toolbar {
+  height: 64px;
+}
+
+.content {
+  flex-grow: 1;
+  padding: var(--spacing-md);
+  transition: margin 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.contentShift {
+  margin-left: 240px;
+}
+
+.pageContainer {
+  flex-grow: 1;
+  padding: var(--spacing-md);
+}
+
+@media (max-width: 960px) {
+  .content {
+    margin-left: 0 !important;
+  }
+}

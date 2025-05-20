@@ -1,0 +1,46 @@
+.chartContainer {
+  width: 100%;
+  height: 300px;
+}
+
+.customTooltip {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: var(--border-radius-sm);
+  padding: var(--spacing-sm);
+  box-shadow: var(--shadow-1);
+}
+
+.statsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: var(--spacing-md);
+}
+
+.statItem {
+  display: flex;
+  align-items: center;
+  min-width: 120px;
+  margin-bottom: var(--spacing-sm);
+}
+
+.statColor {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: var(--spacing-sm);
+}
+
+.statInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.statLabel {
+  font-weight: 500;
+}
+
+.statValue {
+  font-weight: 600;
+}

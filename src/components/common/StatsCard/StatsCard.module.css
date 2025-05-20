@@ -1,0 +1,65 @@
+.statsCard {
+  padding: var(--spacing-md);
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-2);
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.textContent {
+  flex: 1;
+}
+
+.title {
+  font-weight: 500;
+  margin-bottom: var(--spacing-xs);
+}
+
+.value {
+  font-weight: 600;
+  margin-bottom: var(--spacing-xs);
+}
+
+.change {
+  display: flex;
+  align-items: center;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: var(--border-radius-round);
+  color: white;
+}
+
+.primary {
+  background-color: var(--primary-main);
+}
+
+.secondary {
+  background-color: var(--secondary-main);
+}
+
+.success {
+  background-color: var(--success-main);
+}
+
+.error {
+  background-color: var(--error-main);
+}
+
+.warning {
+  background-color: var(--warning-main);
+}
+
+.info {
+  background-color: var(--info-main);
+}

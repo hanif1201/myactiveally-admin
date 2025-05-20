@@ -1,0 +1,22 @@
+.pageHeader {
+  margin-bottom: var(--spacing-lg);
+}
+
+.titleSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-md);
+}
+
+.title {
+  font-weight: 600;
+}
+
+.breadcrumbs {
+  margin-bottom: var(--spacing-md);
+}
+
+.actionButton {
+  margin-left: var(--spacing-md);
+}

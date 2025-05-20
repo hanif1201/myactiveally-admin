@@ -1,0 +1,61 @@
+.revenueBox {
+  padding: var(--spacing-md);
+  border-radius: var(--border-radius-md);
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+.revenueBoxTitle {
+  margin-bottom: var(--spacing-sm);
+  font-weight: 500;
+}
+
+.revenueValueContainer {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.revenueValue {
+  font-weight: 600;
+}
+
+.revenueChange {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: var(--border-radius-sm);
+}
+
+.positive {
+  color: var(--success-main);
+  background-color: rgba(76, 175, 80, 0.1);
+}
+
+.negative {
+  color: var(--error-main);
+  background-color: rgba(244, 67, 54, 0.1);
+}
+
+.divider {
+  margin: var(--spacing-sm) 0;
+}
+
+.revenueItem {
+  margin-bottom: var(--spacing-md);
+}
+
+.revenueItemValue {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+}
+
+.revenueItemChange {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  padding: 2px var(--spacing-xs);
+  border-radius: var(--border-radius-sm);
+  font-size: 0.75rem;
+}

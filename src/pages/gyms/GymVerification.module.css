@@ -1,0 +1,135 @@
+.verificationContainer {
+  padding: var(--spacing-md);
+}
+
+.pendingListPaper {
+  height: 100%;
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+}
+
+.pendingListTitle {
+  padding: var(--spacing-md);
+  display: flex;
+  align-items: center;
+}
+
+.pendingCountChip {
+  margin-left: var(--spacing-sm);
+}
+
+.loadingContainer,
+.emptyListContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-xl);
+  min-height: 200px;
+}
+
+.pendingList {
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.pendingListItem {
+  padding: var(--spacing-sm) var(--spacing-md);
+}
+
+.noSelectionPaper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  padding: var(--spacing-xl);
+  border-radius: var(--border-radius-lg);
+}
+
+.gymDetailsPaper {
+  border-radius: var(--border-radius-lg);
+  padding: var(--spacing-lg);
+}
+
+.gymHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--spacing-md);
+}
+
+.gymInfo {
+  flex: 1;
+}
+
+.viewDetailsButton {
+  margin-left: var(--spacing-md);
+}
+
+.gymPhotosContainer {
+  display: flex;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-md);
+  overflow-x: auto;
+}
+
+.gymPhoto {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: var(--border-radius-md);
+}
+
+.divider {
+  margin: var(--spacing-md) 0;
+}
+
+.sectionTitle {
+  margin-bottom: var(--spacing-sm);
+}
+
+.amenitiesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-sm) 0;
+}
+
+.amenityChip {
+  margin-bottom: var(--spacing-sm);
+}
+
+.websiteLink {
+  color: var(--primary-main);
+  text-decoration: none;
+}
+
+.websiteLink:hover {
+  text-decoration: underline;
+}
+
+.description {
+  white-space: pre-line;
+}
+
+.hoursItem {
+  margin-bottom: var(--spacing-sm);
+}
+
+.dayName {
+  font-weight: 600;
+}
+
+.verificationActions {
+  margin-top: var(--spacing-lg);
+}
+
+.verificationNotes {
+  margin-bottom: var(--spacing-md);
+}
+
+.actionsButtonGroup {
+  display: flex;
+  justify-content: space-between;
+}

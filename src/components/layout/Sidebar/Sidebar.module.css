@@ -1,0 +1,35 @@
+.drawer {
+  width: 240px;
+  flex-shrink: 0;
+}
+
+.drawerPaper {
+  width: 240px;
+  z-index: var(--z-index-drawer);
+}
+
+.logo {
+  padding: var(--spacing-md);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+}
+
+.sidebar {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.nested {
+  padding-left: var(--spacing-xl);
+}
+
+.activeItem {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+.activeItem:hover {
+  background-color: rgba(0, 0, 0, 0.12);
+}

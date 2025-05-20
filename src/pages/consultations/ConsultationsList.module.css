@@ -1,0 +1,40 @@
+.consultationsListContainer {
+  padding: var(--spacing-md);
+}
+
+.consultationsListPaper {
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+}
+
+.consultationsListToolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-md);
+  border-bottom: 1px solid var(--grey-200);
+}
+
+.searchField {
+  width: 300px;
+}
+
+.filterChip {
+  margin-left: var(--spacing-sm);
+}
+
+.userCell {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  font-size: 0.75rem;
+}
+
+.menuIcon {
+  margin-right: var(--spacing-sm);
+}
